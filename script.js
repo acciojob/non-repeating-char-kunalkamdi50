@@ -13,7 +13,7 @@ let inputStr = prompt("Enter a string: ");
 let result = firstNonRepeatedChar(inputStr);
 
 if (result !== null) {
-  alert(`The first non-repeated character in ${inputStr} is ${result}.`);
+  alert(`  ${result}`);
 } else {
-  alert(`There is no non-repeated character in ${inputStr}.`);
+  alert(` ${inputStr}`);
 }
