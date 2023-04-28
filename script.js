@@ -13,7 +13,7 @@ let inputStr = prompt("Enter a string: ");
 let result = firstNonRepeatedChar(inputStr);
 
 if (result !== null) {
-  alert(`  ${result}`);
+  alert( ${result});
 } else {
-  alert(` ${inputStr}`);
+  alert( ${inputStr});
 }
